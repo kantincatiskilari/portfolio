@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap');
+
+.contact{
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 100px;
+}
+
+.contactDesc{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: center;
+}
+
+.contactDesc .contactDescTitle{
+   font-size: 26px;
+   color: rgb(131, 21, 235);
+   font-family: 'Sigmar', cursive;
+}
+
+.contactDesc .contactDescSubtitle{
+   font-size: 36px;
+   color: #fff;
+   font-family: 'Noto Sans', sans-serif;
+}
+
+.contactForm{
+   border: 1px solid rgb(163, 133, 78);
+   padding: 20px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   
+}
+
+.contactFormInput{
+   background: transparent;
+   border: none;
+   outline: none;
+   color: #fff;
+   width: 400px;
+   padding: 10px;
+   border-bottom: 1.4px solid white;
+   transition: .3s ease-in-out all;
+}
+textarea{
+   height: 100px;
+   width: 400px !important;
+   resize: none;
+}
+
+.contactFormInput{
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 17px;
+   font-weight: 300;
+}
+
+.contactFormInput::placeholder{
+   color: lightgray;
+}
+
+.contactFormInput:focus{
+   border-bottom: 1px solid blueviolet;
+}
+
+.contactFormBtn{
+   padding: 9px 16px;
+   border: none;
+   color: white;
+   border-radius: 19px;
+   background: linear-gradient(90deg, rgba(53,78,204,1) 0%, rgba(252,70,107,1) 100%);
+   cursor: pointer;
+   font-family: 'Kanit', sans-serif;
+   font-size: 16px;
+}
+
+.resultDiv{
+   position: absolute;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   width: 200px;
+   top: 30px;
+   right: 30px;
+   background-color: white;
+   font-size: 14px;
+   font-family: 'Noto Sans', sans-serif;
+}
+
+.resultDiv.success::before{
+   display: inline-block;
+   content: "";
+   height: 30px;
+   width: 10px;
+   background-color: rgb(10, 175, 10);
+}
+
+.resultDiv.failure::before{
+   display: inline-block;
+   content: "";
+   height: 30px;
+   width: 10px;
+   background-color: rgb(207, 6, 6);
+}

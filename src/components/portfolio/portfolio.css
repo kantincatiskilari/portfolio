@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+.portfolio{
+   margin: 0 100px;
+}
+
+.swiperImg{
+   width: 1200px;
+   height: 700px;
+   border-radius: 20px;
+   object-fit: cover;
+}
+
+.portfolioTitle{
+   text-align: center;
+   text-align: center;
+   font-size: 45px;
+   font-family: 'Acme', sans-serif;
+   margin-bottom: 30px;
+   padding-top: 30px;
+
+}
+
+.portfolioTitle span:first-child{
+   color: rgb(255, 140, 8);
+}
+
+.portfolioTitle span:last-child{
+   color: #fff;
+}
+
+.swiper-slide{
+   position: relative;
+}
+
+.itemDescContainer{
+   opacity: 0;
+   visibility: hidden;
+   position: absolute;
+   color: black;
+   top: 49.7%;
+   left: 38.8%;
+   transform: translate(-50%, -50%);
+   background-color: rgba(201, 112, 10, 0.9);
+   width: 1200px;
+   height: 700px;
+   border-radius: 20px;
+   color: white;
+   transition: .3s ease-in all;
+}
+
+.swiper-slide:hover .itemDescContainer{
+   opacity: 1;
+   visibility: visible;
+}
+
+
+.itemDescTitle{
+   font-family: 'Roboto Flex', sans-serif;
+   text-align: center;
+   padding-top: 240px;
+   font-size: 26px;
+   color: rgb(110, 19, 196);
+}
+
+.itemDescElement{
+   font-family: 'Montserrat', sans-serif;
+   display: flex;
+   margin: 10px 0;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+
+.itemDescElement span:first-child{
+   color: lightgray;
+   display: inline-flex;
+   align-items: center;
+   gap: 10px;
+}
+
+
+.link{
+   text-decoration: none;
+   color: inherit;
+}

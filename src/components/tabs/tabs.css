@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.tabs{
+   position: fixed;
+   bottom: calc(50% - 110px);
+   right: 30px;
+   gap: 20px;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   font-family: 'Righteous', cursive;
+   z-index: 999;
+}
+
+.tab{
+   background-color: orange;
+   width: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 40px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.tab svg{
+   z-index: 999;
+}
+
+.tabName{
+   position: absolute;
+   right: 20px;
+   background-color: orange;
+   height: 40px;
+   width: 90px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   opacity: 0;
+   transition: .5s ease-in all;
+}
+
+.tab:hover .tabName{
+   opacity: 1;
+}

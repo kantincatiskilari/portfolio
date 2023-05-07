@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.about{
+   height: 100%;
+}
+
+.aboutMe{
+   padding-top: 100px;
+   margin-bottom: 50px;
+}
+
+.aboutMeTitle{
+   text-align: center;
+   font-size: 45px;
+   font-family: 'Acme', sans-serif;
+   margin-bottom: 30px;
+}
+
+.aboutMeTitle span:first-child{
+   color: rgb(255, 140, 8);
+}
+
+.aboutMeTitle span:last-child{
+   color: #fff;
+}
+
+.aboutMeContainer{
+   display: flex;
+}
+
+.aboutMeInfos{
+   flex: 1;
+   text-align: center;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-top: 30px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.aboutMeInfosTitle{
+   position: absolute;
+   width: 50%;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   color: whitesmoke;
+}
+
+.aboutMeInfo{
+   margin: 15px 0;
+}
+
+.aboutMeInfo span:first-child{
+   color: lightcoral;
+}
+
+.aboutMeInfo span:last-child{
+   color: lightgray;
+}
+
+.aboutMeDesc{
+   flex: 1;
+   color: white;
+   font-family: 'Roboto Slab', serif;
+   font-size: 15px;
+   letter-spacing: .3px;
+   margin-right: 100px;
+}
+
+.aboutMeBorder{
+   width: 400px;
+   height: 1px;
+   background-color: gray;
+   margin: auto;
+}
+
+.aboutMySkillsPercents{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+}
+
+.aboutMySkillsTitle{
+   margin: 30px 0;
+   text-align: center;
+   font-size: 28px;
+   color: lightgray;
+   font-family: 'Acme', sans-serif;
+}
+
+.aboutMySkillsPercent{
+   width: 150px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   font-family: 'Ubuntu', sans-serif;
+   color: white;
+}
