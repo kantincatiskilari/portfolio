@@ -1,7 +1,6 @@
 import "./home.css";
 import { TypeAnimation } from "react-type-animation";
-import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
-import { useState } from "react";
+import moon from '../assets/moon.png'
 
 export default function Home({setPage}) {
 
@@ -9,7 +8,7 @@ export default function Home({setPage}) {
     <div className="home">
       <div className="portfolioImg">
         <img
-          src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          src={moon}
           alt=""
         />
       </div>

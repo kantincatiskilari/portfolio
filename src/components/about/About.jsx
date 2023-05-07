@@ -193,8 +193,25 @@ export default function About() {
             />
             <div className="skillName">REACT-NATIVE</div>
           </div>
+          <div className="aboutMySkillsPercent">
+            <CircularProgressbar
+              value={50}
+              text={`${50}%`}
+              styles={buildStyles({
+                rotation: 0.25,
+                strokeLinecap: "butt",
+                textSize: "16px",
+                pathTransitionDuration: 0.5,
+                pathColor: `rgba(255,140,0, ${50 / 100})`,
+                textColor: "white",
+                trailColor: "white",
+                backgroundColor: "#3e98c7",
+              })}
+            />
+            <div className="skillName">GraphQL</div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
