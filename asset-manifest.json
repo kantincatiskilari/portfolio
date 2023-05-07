@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.90c84992.css",
+    "main.css": "/portfolio/static/css/main.bb5c0b4b.css",
     "main.js": "/portfolio/static/js/main.94d22a7a.js",
     "static/media/shopapp2.jpeg": "/portfolio/static/media/shopapp2.13234601b097f0426be9.jpeg",
     "static/media/moon.png": "/portfolio/static/media/moon.c0372f5492812547889c.png",
@@ -10,11 +10,11 @@
     "static/media/pawdictionary2.jpeg": "/portfolio/static/media/pawdictionary2.eeab23d2d7e0b887c2c5.jpeg",
     "static/media/pawdictionary1.jpeg": "/portfolio/static/media/pawdictionary1.d748927bcf0c16596f36.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.90c84992.css.map": "/portfolio/static/css/main.90c84992.css.map",
+    "main.bb5c0b4b.css.map": "/portfolio/static/css/main.bb5c0b4b.css.map",
     "main.94d22a7a.js.map": "/portfolio/static/js/main.94d22a7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.90c84992.css",
+    "static/css/main.bb5c0b4b.css",
     "static/js/main.94d22a7a.js"
   ]
 }
