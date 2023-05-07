@@ -85,15 +85,16 @@
    color: inherit;
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1600px){
    .swiperImg{
       width: 65vw;
-      height: 75vh;
+      height: 80vh;
       border-radius: 10px;
+      object-fit: cover;
    }
    .itemDescContainer{
       width: 65vw;
-      height: 75vh;
+      height: 80vh;
       border-radius: 10px;
    }
    .portfolioTitle{

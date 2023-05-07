@@ -72,7 +72,7 @@
    transform: scaleY(1);
 }
 
-@media screen and (max-width:1450px){
+@media screen and (max-width:1600px){
    .portfolioImg img{
       height: 50vh;
       margin-left: 200px;
@@ -85,6 +85,6 @@
       max-width: 350px;
    }
    .portfolioBtn{
-      bottom: 100px;
+      bottom: 70px;
    }
 }
