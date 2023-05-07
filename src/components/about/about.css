@@ -100,3 +100,55 @@
    font-family: 'Ubuntu', sans-serif;
    color: white;
 }
+
+@media screen and (max-width:1200px) {
+   .aboutMe{
+      padding-top: 0;
+      margin-bottom: 20px;
+   }
+   .aboutMeTitle{
+      font-size: 35px;
+      margin-bottom: 10px;
+   }
+   .aboutMeInfos{
+      font-size: 13px;
+   }
+   .aboutMeInfosTitle{
+      font-size: 16px;
+   }
+   .aboutMeDesc{
+      letter-spacing: 0;
+     font-size: 13px;
+   }
+   .aboutMe{
+      height: 50vh;
+   }
+   .aboutMeBorder{
+      display: none;
+   }
+
+   .aboutMySkillsTitle{
+      display: none;
+   }
+   .aboutMySkillsPercents{
+      margin-top:142px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+   }
+   .aboutMySkillsPercent{
+      width: 75px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Ubuntu', sans-serif;
+      color: white;
+   }
+   .skillName{
+      font-size: 12px;
+      text-align: center;
+      width: 100px;
+   }
+}

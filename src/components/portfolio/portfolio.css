@@ -7,8 +7,8 @@
 }
 
 .swiperImg{
-   width: 1200px;
-   height: 700px;
+   width: 65vw;
+   height: 80vh;
    border-radius: 20px;
    object-fit: cover;
 }
@@ -43,8 +43,8 @@
    top: 0;
    left: 0;
    background-color: rgba(201, 112, 10, 0.9);
-   width: 1200px;
-   height: 700px;
+   width: 65vw;
+   height: 80vh;
    border-radius: 20px;
    color: white;
    transition: .3s ease-in all;
@@ -83,4 +83,33 @@
 .link{
    text-decoration: none;
    color: inherit;
+}
+
+@media screen and (max-width:1200px){
+   .swiperImg{
+      width: 65vw;
+      height: 75vh;
+      border-radius: 10px;
+   }
+   .itemDescContainer{
+      width: 65vw;
+      height: 75vh;
+      border-radius: 10px;
+   }
+   .portfolioTitle{
+      font-size: 35px;
+      font-family: 'Acme', sans-serif;
+      margin-bottom: 20px;
+      padding-top: 20px;
+   
+   }
+   .itemDescTitle{
+      font-family: 'Roboto Flex', sans-serif;
+      text-align: center;
+      padding-top: 120px;
+      font-size: 22px;
+      color: rgb(110, 19, 196);
+   }
+   
+   
 }

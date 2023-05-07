@@ -7,13 +7,13 @@
 }
 
 .portfolioImg img{
-   height: 700px;
+   height: 70vh;
    margin-left: 200px;
-   margin-top: 73px;
-   border-radius: 50px;
+   margin-top: 153px;
 }
 
 .portfolioDesc{
+   position: relative;
    height: 100%;
    display: flex;
    flex-direction: column;
@@ -72,3 +72,19 @@
    transform: scaleY(1);
 }
 
+@media screen and (max-width:1450px){
+   .portfolioImg img{
+      height: 50vh;
+      margin-left: 200px;
+      margin-top: 153px;
+   }
+   .portfolioDesc{
+      margin-left: 50px;
+   }
+   .portfolioDescSubtitle{
+      max-width: 350px;
+   }
+   .portfolioBtn{
+      bottom: 100px;
+   }
+}
