@@ -48,6 +48,10 @@
    border-radius: 20px;
    color: white;
    transition: .3s ease-in all;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
 }
 
 .swiper-slide:hover .itemDescContainer{
@@ -58,7 +62,6 @@
 .itemDescTitle{
    font-family: 'Roboto Flex', sans-serif;
    text-align: center;
-   padding-top: 240px;
    font-size: 26px;
    color: rgb(110, 19, 196);
 }
@@ -85,7 +88,7 @@
    color: inherit;
 }
 
-@media screen and (max-width:1920px){
+@media screen and (max-width:1600px){
    .swiperImg{
       width: 65vw;
       height: 80vh;
@@ -107,7 +110,7 @@
    .itemDescTitle{
       font-family: 'Roboto Flex', sans-serif;
       text-align: center;
-      padding-top: 120px;
+      padding-top: 20px;
       font-size: 22px;
       color: rgb(110, 19, 196);
    }
