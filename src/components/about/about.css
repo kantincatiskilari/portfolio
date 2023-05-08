@@ -8,7 +8,7 @@
 }
 
 .aboutMe{
-   padding-top: 100px;
+   padding-top:80px;
    margin-bottom: 50px;
 }
 
@@ -101,10 +101,12 @@
    color: white;
 }
 
-@media screen and (max-width:1600px) {
+
+@media screen and (max-width:1700px) {
    .aboutMe{
       padding-top: 0;
       margin-bottom: 20px;
+      height: 50vh;
    }
    .aboutMeTitle{
       font-size: 35px;
@@ -116,13 +118,7 @@
    .aboutMeInfosTitle{
       font-size: 16px;
    }
-   .aboutMeDesc{
-      letter-spacing: 0;
-     font-size: 13px;
-   }
-   .aboutMe{
-      height: 50vh;
-   }
+
    .aboutMeBorder{
       display: none;
    }
@@ -131,14 +127,14 @@
       display: none;
    }
    .aboutMySkillsPercents{
-      margin-top:142px;
+      margin-top:110px;
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 30px;
    }
    .aboutMySkillsPercent{
-      width: 75px;
+      width: 80px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -150,5 +146,31 @@
       font-size: 12px;
       text-align: center;
       width: 100px;
+   }
+   .aboutMeInfos,.aboutMeInfosTitle{
+      display: none;
+   }
+   .aboutMeTitle{
+      margin-bottom: 25px;
+   }
+   .aboutMeDesc{
+      margin-left: 5px;
+      font-size: 16px;
+      text-align: center;
+    }
+   .aboutMySkillsPercents{
+      margin-top:130px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+   }
+  
+}
+
+@media screen and (max-width:940px){  
+   .aboutMySkillsPercents{
+      display: none;
    }
 }

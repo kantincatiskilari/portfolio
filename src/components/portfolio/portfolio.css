@@ -85,7 +85,7 @@
    color: inherit;
 }
 
-@media screen and (max-width:1600px){
+@media screen and (max-width:1920px){
    .swiperImg{
       width: 65vw;
       height: 80vh;

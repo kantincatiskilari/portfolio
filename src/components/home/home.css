@@ -38,6 +38,7 @@
 }
 
 .portfolioBtn{
+   background-color: red;
    bottom: 260px;
    background: none;
    color: black;
@@ -73,6 +74,13 @@
 }
 
 @media screen and (max-width:1600px){
+   .portfolioBtn{
+      bottom: 90px;
+   }
+}
+
+
+@media screen and (max-width:1400px){
    .portfolioImg img{
       height: 50vh;
       margin-left: 200px;
@@ -86,5 +94,12 @@
    }
    .portfolioBtn{
       bottom: 70px;
+   }
+}
+
+@media screen and (max-width:900px){
+   .portfolioImg img{
+      height: 50vh;
+      margin-left: 20px;
    }
 }
